@@ -4,7 +4,8 @@ This is a sample NPM module created in [_Learn Enough JavaScript to Be Dangerous
 
 The module can be used as follows:
 
-```$ npm install --global mhartl-palindrome
+```
+$ npm install --global mhartl-palindrome
 $ code test.js (using Visual Studio Code)
 let Phrase = require("mhartl-palindrome");
 let napoleonsLament = new Phrase("Able was I, ere I saw Elba.");
