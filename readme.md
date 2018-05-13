@@ -1,12 +1,14 @@
 # Phrase object (with palindrome detector)
 
 This is a sample NPM module created in _[Learn Enough JavaScript to Be Dangerous]_(https://www.learnenough.com/javascript-tutorial) by Michael Hartl.
+
 The module can be used as follows:
 
-> $ npm install --global mhartl-palindrome
-> $ code test.js (using Visual Studio Code)
-> let Phrase = require("mhartl-palindrome");
-> let napoleonsLament = new Phrase("Able was I, ere I saw Elba.");
-> console.log(napoleonsLament.palindrome());
-> $ node test.js
-> true
+```$ npm install --global mhartl-palindrome
+$ code test.js (using Visual Studio Code)
+let Phrase = require("mhartl-palindrome");
+let napoleonsLament = new Phrase("Able was I, ere I saw Elba.");
+console.log(napoleonsLament.palindrome());
+$ node test.js
+true
+```
