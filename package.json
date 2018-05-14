@@ -1,6 +1,6 @@
 {
   "name": "kwibus2000-palindrome",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Palindrome detector",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/kwibus2000/kwibus2000-palindrome/issues"
   },
-  "homepage": "https://github.com/kwibus2000/kwibus2000-palindrome#readme"
+  "homepage": "https://github.com/kwibus2000/kwibus2000-palindrome#readme",
+  "dependencies": {
+    "mhartl-palindrome": "^0.2.1"
+  }
 }

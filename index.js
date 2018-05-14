@@ -20,8 +20,9 @@ function Phrase(content) {
   // For example:
   //  new Phrase("Hello world!").letters === "Helloworld"
   this.letters = function letters() {
+    const lettersRegEx = /[a-z]/i;
     return Array.from(this.content)
-      .filter(c => c.match(/[a-z]/i))
+      .filter(c => c.match(lettersRegEx))
       .join("");
   };
 
